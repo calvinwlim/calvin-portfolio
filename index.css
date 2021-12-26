@@ -21,17 +21,17 @@
 
 @font-face {
     font-family: bookmaniaBlackItalic;
-    src: url(../fonts/Bookmania\ Black\ Italic.otf);
+    src: url(fonts/Bookmania\ Black\ Italic.otf);
  }
  
  @font-face {
     font-family: bookmaniaSemi;
-    src: url(../fonts/Bookmania\ SemiBold.otf);
+    src: url(fonts/Bookmania\ SemiBold.otf);
  }
  
  @font-face {
     font-family: bookmaniaLightItalic;
-    src: url(../fonts/Bookmania\ Light\ Italic.otf);
+    src: url(fonts/Bookmania\ Light\ Italic.otf);
  }
  .text {
    font-family: bookmaniaBlackItalic;
@@ -256,3 +256,13 @@ p {
    font-weight: bold;
  }
  
+ .footer {
+  position: fixed;
+  padding: 25px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: bookmaniaSemi;
+}
