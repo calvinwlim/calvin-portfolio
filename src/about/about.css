@@ -251,3 +251,14 @@
       float: right;
       padding: 15px;
   }
+  .footer {
+    position: fixed;
+    padding: 25px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: var(--text-color);
+    text-align: center;
+    font-family: bookmaniaSemi;
+  }
+  

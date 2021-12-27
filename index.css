@@ -245,7 +245,6 @@ p {
    line-height: 1.5em;
    word-spacing: 0.5em;
    letter-spacing: 0.1em;
-   font-family: "Patua One";
  }
  .centre-text {
    font-family: bookmaniaSemi;
@@ -262,7 +261,8 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  color: var(--text-color);
   text-align: center;
   font-family: bookmaniaSemi;
 }
+
